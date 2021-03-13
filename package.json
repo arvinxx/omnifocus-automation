@@ -1,19 +1,20 @@
 {
-  "name": "@gitmoji/template",
+  "name": "omnifocus-automation",
   "version": "4.2.3",
-  "description": "a template for gitmoji commit workflow",
+  "private": true,
+  "description": "omnifocus automation",
   "main": "lib/index.js",
   "scripts": {
     "release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arvinxx/gitmoji-commit-workflow-template.git"
+    "url": "git+https://github.com/arvinxx/omnifocus-automation.git"
   },
   "author": "Arvin Xu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arvinxx/gitmoji-commit-workflow-template/issues"
+    "url": "https://github.com/arvinxx/omnifocus-automation/issues"
   },
   "publishConfig": {
     "access": "public",
@@ -24,7 +25,7 @@
     "commitlint-config-gitmoji": "^2.2.1",
     "husky": "^4.3.8",
     "semantic-release": "^17.3.7",
-    "semantic-release-config-gitmoji-module": "^1.0.1"
+    "semantic-release-config-gitmoji": "^1.2.4"
   },
-  "homepage": "https://github.com/arvinxx/gitmoji-commit-workflow-template#readme"
+  "homepage": "https://github.com/arvinxx/omnifocus-automation#readme"
 }
