@@ -3,12 +3,6 @@ on:
   push:
     branches:
       - master
-      - next
-      - beta
-      - alpha
-      - pre/rc
-      - 1.x
-      - 2.x
 
 jobs:
   release:
@@ -26,4 +20,3 @@ jobs:
         run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

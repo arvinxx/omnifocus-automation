@@ -406,6 +406,11 @@
   resolved "https://registry.npm.taobao.org/@types/minimist/download/@types/minimist-1.2.1.tgz?cache=0&sync_timestamp=1604943486106&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fminimist%2Fdownload%2F%40types%2Fminimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
   integrity sha1-KD9mn/dte4Jg34q3pCYsyD2YglY=
 
+"@types/node@*":
+  version "14.14.34"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.34.tgz?cache=0&sync_timestamp=1615550684927&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.34.tgz#07935194fc049069a1c56c0c274265abeddf88da"
+  integrity sha1-B5NRlPwEkGmhxWwMJ0Jlq+3fiNo=
+
 "@types/node@>= 8":
   version "14.14.22"
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.22.tgz?cache=0&sync_timestamp=1611167664149&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
@@ -425,6 +430,13 @@
   version "0.12.0"
   resolved "https://registry.npm.taobao.org/@types/retry/download/@types/retry-0.12.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fretry%2Fdownload%2F%40types%2Fretry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha1-KzXsz87n04zXKtmSMvvVi/+zyE0=
+
+"@types/semantic-release@^17.2.0":
+  version "17.2.0"
+  resolved "https://registry.npm.taobao.org/@types/semantic-release/download/@types/semantic-release-17.2.0.tgz#2ed941f0ccd1ba714ec46ddefe4f224164946872"
+  integrity sha1-LtlB8MzRunFOxG3e/k8iQWSUaHI=
+  dependencies:
+    "@types/node" "*"
 
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
@@ -1035,10 +1047,10 @@ conventional-changelog-angular@^5.0.0, conventional-changelog-angular@^5.0.11:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-gitmoji-config@1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.2.tgz#4c08bda06b77eaa4c8c286c88fffb04db96404e0"
-  integrity sha512-cLZ7+FNWypnFsSz3IXvvDcfmGDNX5DvQFdRkNTqIOlwAa+i9gcwcvOjI6UntbTmK3z1XWEWI/tipWGEvzNpcAw==
+conventional-changelog-gitmoji-config@1.4.3:
+  version "1.4.3"
+  resolved "https://registry.npm.taobao.org/conventional-changelog-gitmoji-config/download/conventional-changelog-gitmoji-config-1.4.3.tgz#a4516ea4400e512ddd1e573b8234f69a9ed21a6d"
+  integrity sha1-pFFupEAOUS3dHlc7gjT2mp7SGm0=
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@gitmoji/parser-opts" "1.3.0"
@@ -4111,14 +4123,16 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-semantic-release-config-gitmoji-module@^1.0.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji-module/-/semantic-release-config-gitmoji-module-1.1.2.tgz#f89f3e76185df4891150a458c55e096091bc9cc9"
-  integrity sha512-HJQ/zCjW0ITRRTnLDgS52vUIsljZzIHgIa578UULCTg5xnta28QRhutNvSOJ80MH+5udvA/YeeIDLUoCfKv5TQ==
+semantic-release-config-gitmoji@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/semantic-release-config-gitmoji/download/semantic-release-config-gitmoji-1.2.4.tgz#6962f6b42fe62b437e2795e62a3ec0ebe3ad4eff"
+  integrity sha1-aWL2tC/mK0N+J5XmKj7A6+OtTv8=
   dependencies:
+    "@gitmoji/commit-types" "1.1.5"
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/git" "^9.0.0"
-    conventional-changelog-gitmoji-config "1.4.2"
+    "@types/semantic-release" "^17.2.0"
+    conventional-changelog-gitmoji-config "1.4.3"
 
 semantic-release@^17.3.7:
   version "17.4.1"
